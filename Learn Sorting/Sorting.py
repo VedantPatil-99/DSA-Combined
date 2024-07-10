@@ -86,6 +86,7 @@ def partition(arr, low, high):
   return j
   
   
+##------------------ Function Calls----------------------------
 if __name__ == '__main__':
     arr = [2, 9, 4, 18, 6]
     n = len(arr)
