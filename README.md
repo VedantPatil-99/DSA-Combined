@@ -1,5 +1,5 @@
 # DSA Combined-
-##Striver's A-Z DSA Series in Python
+## Striver's A-Z DSA Series in Python
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=VedantPatil-99.DSA-Combined)
 
@@ -44,7 +44,7 @@ This section includes implementations of various sorting algorithms:
 ## Credits
 
 - **Vedant Patil** - [GitHub Profile](https://github.com/VedantPatil-99)
-- Thanks to [Striver's A-Z DSA series](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) for the structured content.
+- Thanks to [Striver's A-Z DSA series](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) for the structured content.
 
 ## License
 
