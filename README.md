@@ -13,7 +13,7 @@ This repository contains my solutions to the questions from "Striver's A-Z DSA s
 
 ## Sorting
 
-[Folder Link to Sorting](https://github.com/VedantPatil-99/DSA-Combined/tree/main/Sorting)
+[File Link to Sorting](https://github.com/VedantPatil-99/DSA-Combined/blob/main/Learn%20Sorting%2FSorting.py)
 
 This section includes implementations of various sorting algorithms:
 
