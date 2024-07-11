@@ -48,6 +48,7 @@ def repeated_number_triangle(n):
     for i in range(n):
         print(str(i + 1) * (i + 1))
         
+#----------------- downward_triangle_of_asterisks -------------------------
 def downward_triangle_of_asterisks(n):
     """
     * * * * *
@@ -59,6 +60,7 @@ def downward_triangle_of_asterisks(n):
     for i in range(n, 0, -1):
         print("* " * i)
 
+#----------------- downward_triangle_of_numbers -------------------------
 def downward_triangle_of_numbers(n):
     """
     1 2 3 4 5
@@ -70,6 +72,7 @@ def downward_triangle_of_numbers(n):
     for i in range(n, 0, -1):
         print(" ".join(str(j) for j in range(1, i+1)))
 
+#----------------- pyramid_of_asterisks -------------------------
 def pyramid_of_asterisks(n):
     """
         * 
@@ -87,6 +90,7 @@ def pyramid_of_asterisks(n):
             print(" ", end=" ")
         print()
 
+#----------------- upside_down_pyramid_of_asterisks -------------------------
 def upside_down_pyramid_of_asterisks(n):
     """
 * * * * * * * * * 
@@ -104,6 +108,7 @@ def upside_down_pyramid_of_asterisks(n):
             print(" ", end=" ")
         print()
 
+#----------------- diamond_shape_of_asterisks -------------------------
 def diamond_shape_of_asterisks(n):
     """
     Output:
@@ -119,6 +124,9 @@ def diamond_shape_of_asterisks(n):
     """
     pyramid_of_asterisks(n)
     upside_down_pyramid_of_asterisks(n)
+
+
+
 
 if __name__ == '__main__':
     n = 5
@@ -149,3 +157,5 @@ if __name__ == '__main__':
     
     print("\nCombined Patterns 3 and 4 (Diamond Shape):")
     diamond_shape_of_asterisks(n)
+    
+    
