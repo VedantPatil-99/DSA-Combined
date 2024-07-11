@@ -111,7 +111,6 @@ def upside_down_pyramid_of_asterisks(n):
 #----------------- diamond_shape_of_asterisks -------------------------
 def diamond_shape_of_asterisks(n):
     """
-    Output:
         * 
       * * * 
     * * * * * 
