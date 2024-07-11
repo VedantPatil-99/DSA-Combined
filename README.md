@@ -9,6 +9,7 @@ This repository contains my solutions to the questions from "Striver's A-Z DSA s
 
 ## Table of Contents
 
+
 - [Sorting](#sorting)
 
 ## Sorting
@@ -33,12 +34,12 @@ This section includes implementations of various sorting algorithms:
 
 2. Navigate to the specific folder of interest:
     ```bash
-    cd Sorting
+    cd Learn Sorting
     ```
 
 3. Run the Python scripts:
     ```bash
-    python sort_algorithms.py
+    python Sorting.py
     ```
 
 ## Credits
