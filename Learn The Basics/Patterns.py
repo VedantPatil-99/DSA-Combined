@@ -53,9 +53,12 @@ if __name__ == '__main__':
     
     print("Square Pattern:")
     square_pattern(n)
+    
     print("\nRight Triangle Pattern:")
     right_triangle_pattern(n)
+    
     print("\nNumber Triangle:")
     number_triangle(n)
+    
     print("\nRepeated Number Triangle:")
     repeated_number_triangle(n)
