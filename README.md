@@ -10,7 +10,8 @@ This repository contains my solutions to the questions from "Striver's A-Z DSA s
 ## Table of Contents
 
 
-- [Sorting](#sorting)
+- [Learn Sorting](#sorting)
+- [Learn The Basics](#learn-the-basics)
 
 ## Sorting
 
@@ -23,6 +24,22 @@ This section includes implementations of various sorting algorithms:
 - Insertion Sort
 - Merge Sort
 - Quick Sort
+
+## Learn The Basics
+
+[File Link to Patterns.py](https://github.com/VedantPatil-99/DSA-Combined/blob/main/Learn%20The%20Basics/Patterns.py)
+
+This section contains implementations of various patterns:
+
+- Square Pattern
+- Right Triangle Pattern
+- Number Triangle
+- Repeated Number Triangle
+- Downward Triangle of Asterisks
+- Downward Triangle of Numbers
+- Pyramid of Asterisks
+- Upside-Down Pyramid of Asterisks
+- Combined Patterns 3 and 4 (Diamond Shape)
 
 ## How to Use
 
