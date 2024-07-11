@@ -47,6 +47,78 @@ def repeated_number_triangle(n):
     """
     for i in range(n):
         print(str(i + 1) * (i + 1))
+        
+def downward_triangle_of_asterisks(n):
+    """
+    * * * * *
+    * * * *
+    * * *
+    * *
+    *
+    """
+    for i in range(n, 0, -1):
+        print("* " * i)
+
+def downward_triangle_of_numbers(n):
+    """
+    1 2 3 4 5
+    1 2 3 4
+    1 2 3
+    1 2
+    1
+    """
+    for i in range(n, 0, -1):
+        print(" ".join(str(j) for j in range(1, i+1)))
+
+def pyramid_of_asterisks(n):
+    """
+        * 
+      * * * 
+    * * * * * 
+  * * * * * * * 
+* * * * * * * * * 
+    """
+    for i in range(0, n):
+        for j in range(n-i-1):
+            print(" ", end=" ")
+        for j in range(2*i + 1):
+            print("* ", end="")
+        for j in range(n-i-1):
+            print(" ", end=" ")
+        print()
+
+def upside_down_pyramid_of_asterisks(n):
+    """
+* * * * * * * * * 
+  * * * * * * * 
+    * * * * * 
+      * * * 
+        * 
+    """
+    for i in range(n):
+        for j in range(i):
+            print(" ", end=" ")
+        for j in range(2*n - (2*i + 1)):
+            print("* ", end="")
+        for j in range(i):
+            print(" ", end=" ")
+        print()
+
+def diamond_shape_of_asterisks(n):
+    """
+    Output:
+        * 
+      * * * 
+    * * * * * 
+  * * * * * * * 
+* * * * * * * * * 
+  * * * * * * * 
+    * * * * * 
+      * * * 
+        * 
+    """
+    pyramid_of_asterisks(n)
+    upside_down_pyramid_of_asterisks(n)
 
 if __name__ == '__main__':
     n = 5
@@ -62,3 +134,18 @@ if __name__ == '__main__':
     
     print("\nRepeated Number Triangle:")
     repeated_number_triangle(n)
+    
+    print("\nDownward Triangle of Asterisks:")
+    downward_triangle_of_asterisks(n)
+    
+    print("\nDownward Triangle of Numbers:")
+    downward_triangle_of_numbers(n)
+    
+    print("\nPyramid of Asterisks:")
+    pyramid_of_asterisks(n)
+    
+    print("\nUpside-Down Pyramid of Asterisks:")
+    upside_down_pyramid_of_asterisks(n)
+    
+    print("\nCombined Patterns 3 and 4 (Diamond Shape):")
+    diamond_shape_of_asterisks(n)
