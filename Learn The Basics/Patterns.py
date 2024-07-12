@@ -123,6 +123,30 @@ def diamond_shape_of_asterisks(n):
     """
     pyramid_of_asterisks(n)
     upside_down_pyramid_of_asterisks(n)
+    
+#----------------- star_pattern -------------------------
+def star_pattern(n):
+    """
+    Output:
+    *
+    **
+    ***
+    ****
+    *****
+    ****
+    ***
+    **
+    *
+    """
+    for i in range(1, 2*n):
+        stars = i
+        if i > n:
+            for j in range(2*n - i):
+                print("*", end="")
+        else:
+            for j in range(stars):
+                print("*", end="")
+        print()
 
 #----------------- Alternating 0 and 1 Pattern -------------------------
 def alternating_binary_pattern(n):
@@ -146,10 +170,10 @@ def alternating_binary_pattern(n):
 #----------------- Number Pyramid with Spaces -------------------------
 def number_pyramid_with_spaces(n):
     """
-    1               1
-    1 2           2 1
-    1 2 3       3 2 1
-    1 2 3 4   4 3 2 1
+    1                 1
+    1 2             2 1
+    1 2 3         3 2 1
+    1 2 3 4     4 3 2 1
     1 2 3 4 5 5 4 3 2 1
     """
     for i in range(1, n + 1):
