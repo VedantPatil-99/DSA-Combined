@@ -334,18 +334,18 @@ def hourglass_with_stars(n):
             print("*", end=" ")
         print()
 
-#----------------- Combined Hourglass and Diamond with Stars -------------------------
-def combined_hourglass_and_diamond_with_stars(n):
+#----------------- hollow_diamond_with_stars -------------------------
+def hollow_diamond_with_stars(n):
     """
-    *                 
-    * *             
-    * * *         
-    * * * *     
-    * * * * * 
-    * * * *     
-    * * *         
-    * *             
-    *                 
+    *                 * 
+    * *             * * 
+    * * *         * * * 
+    * * * *     * * * * 
+    * * * * * * * * * * 
+    * * * *     * * * * 
+    * * *         * * * 
+    * *             * * 
+    *                 *                
     """
     for i in range(2 * n):
         if i >= n:
@@ -427,4 +427,8 @@ if __name__ == '__main__':
     hourglass_with_stars(n)
     
     print("\nCombined Hourglass and Diamond with Stars:")
-combined_hourglass_and_diamond_with_stars(n)
+    hollow_diamond_with_stars(n)
+
+
+
+
