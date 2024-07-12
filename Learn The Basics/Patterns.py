@@ -364,7 +364,45 @@ def hollow_diamond_with_stars(n):
                 print("*", end=" ")
         print()
     
+#----------------- Hollow Square Pattern -------------------------
+def hollow_square(n):
+    """
+    * * * * *
+    *       *
+    *       *
+    *       *
+    * * * * *
+    """
+    for i in range(n):
+        for j in range(n):
+            if i == 0 or j == 0 or i == n - 1 or j == n - 1:
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        print()
 
+#----------------- Number Spiral -------------------------
+def number_spiral(n):
+    """
+    5 5 5 5 5 5 5 5 5 
+    5 4 4 4 4 4 4 4 5 
+    5 4 3 3 3 3 3 4 5 
+    5 4 3 2 2 2 3 4 5 
+    5 4 3 2 1 2 3 4 5 
+    5 4 3 2 2 2 3 4 5 
+    5 4 3 3 3 3 3 4 5 
+    5 4 4 4 4 4 4 4 5 
+    5 5 5 5 5 5 5 5 5 
+    """
+    for i in range(2*n-1):
+        for j in range(2*n-1):
+            top, left = i, j
+            right, bottom = (2*n-2)-j, (2*n-2)-i
+            print(n - min(min(top, bottom), min(left, right)), end =" ")
+        print()
+
+
+    
 
 if __name__ == '__main__':
     n = 5
@@ -428,7 +466,12 @@ if __name__ == '__main__':
     
     print("\nCombined Hourglass and Diamond with Stars:")
     hollow_diamond_with_stars(n)
-
+    
+    print("Hollow Square Pattern:")
+    hollow_square(n)
+    
+    print("\nNumber Spiral:")
+    number_spiral(n)
 
 
 
