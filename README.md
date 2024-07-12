@@ -31,15 +31,8 @@ This section includes implementations of various sorting algorithms:
 
 This section contains implementations of various patterns:
 
-- Square Pattern
-- Right Triangle Pattern
-- Number Triangle
-- Repeated Number Triangle
-- Downward Triangle of Asterisks
-- Downward Triangle of Numbers
-- Pyramid of Asterisks
-- Upside-Down Pyramid of Asterisks
-- Combined Patterns 3 and 4 (Diamond Shape)
+- Square Pattern | Right Triangle Pattern | Number Triangle | Repeated Number Triangle | Downward Triangle of Asterisks | Downward Triangle of Numbers | Pyramid of Asterisks | Upside-Down Pyramid of Asterisks | Combined Patterns 3 and 4 (Diamond Shape) | Alternating 0 and 1 Pattern | Number Pyramid with Spaces | Incremental Number Triangle | Incremental Alphabet Triangle | Alphabet Triangle | Reverse Alphabet Triangle | Repeated Alphabet Triangle | Pyramid of Alphabets | Reverse Alphabet Triangle | Hourglass with Stars | Combined Hourglass and Diamond with Stars | Hollow Square Pattern | Number Spiral
+
 
 ## How to Use
 
