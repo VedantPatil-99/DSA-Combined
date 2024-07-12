@@ -266,6 +266,104 @@ def repeated_alphabet_triangle(n):
         print()
 
 
+#----------------- Pyramid of Alphabets -------------------------
+def pyramid_of_alphabets(n):
+    """
+         A         
+       A B A       
+     A B C B A     
+   A B C D C B A   
+ A B C D E D C B A 
+    """
+    for i in range(n):
+        alpha = ord('A')
+        for j in range(n - i - 1):
+            print(" ", end=" ")
+        for j in range(i + 1):
+            print(chr(alpha + j), end=" ")
+        for j in range(i):
+            print(chr(alpha + i - j - 1), end=" ")
+        for j in range(n - i - 1):
+            print(" ", end=" ")
+        print()
+
+#----------------- Reverse Alphabet Triangle -------------------------
+def reverse_alphabet_triangle(n):
+    """
+    E
+    D E
+    C D E
+    B C D E
+    A B C D E
+    """
+    for i in range(n):
+        alpha = ord('A')
+        for j in range(i + 1):
+            print(chr(alpha + n - i + j - 1), end="")
+        print()
+
+#----------------- Hourglass with Stars -------------------------
+def hourglass_with_stars(n):
+    """
+    * * * * * * * * * * * *
+    * * * * *     * * * * *
+    * * * *         * * * *
+    * * *             * * *
+    * *                 * *
+    *                     *
+    * *                 * *
+    * * *             * * *
+    * * * *         * * * *
+    * * * * *     * * * * *
+    * * * * * * * * * * * *
+    """
+    for i in range(n):
+        for j in range(n - i):
+            print("*", end=" ")
+        for j in range(2 * i):
+            print(" ", end=" ")
+        for j in range(n - i):
+            print("*", end=" ")
+        print()
+    for i in range(n):
+        for j in range(i + 1):
+            print("*", end=" ")
+        for j in range(2 * (n - i - 1)):
+            print(" ", end=" ")
+        for j in range(i + 1):
+            print("*", end=" ")
+        print()
+
+#----------------- Combined Hourglass and Diamond with Stars -------------------------
+def combined_hourglass_and_diamond_with_stars(n):
+    """
+    *                 
+    * *             
+    * * *         
+    * * * *     
+    * * * * * 
+    * * * *     
+    * * *         
+    * *             
+    *                 
+    """
+    for i in range(2 * n):
+        if i >= n:
+            for j in range(2 * n - i - 1):
+                print("*", end=" ")
+            for j in range((i - n) * 2 + 2):
+                print(" ", end=" ")
+            for j in range(2 * n - i - 1):
+                print("*", end=" ")
+        else:
+            for j in range(i + 1):
+                print("*", end=" ")
+            for j in range(2 * (n - i - 1)):
+                print(" ", end=" ")
+            for j in range(i + 1):
+                print("*", end=" ")
+        print()
+    
 
 
 if __name__ == '__main__':
@@ -319,3 +417,14 @@ if __name__ == '__main__':
     print("\nRepeated Alphabet Triangle:")
     repeated_alphabet_triangle(n)
     
+    print("Pyramid of Alphabets:")
+    pyramid_of_alphabets(n)
+    
+    print("\nReverse Alphabet Triangle:")
+    reverse_alphabet_triangle(n)
+    
+    print("\nHourglass with Stars:")
+    hourglass_with_stars(n)
+    
+    print("\nCombined Hourglass and Diamond with Stars:")
+combined_hourglass_and_diamond_with_stars(n)
