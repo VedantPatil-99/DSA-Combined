@@ -1,15 +1,16 @@
 def armstrong_number(n):
-  sum = 0
-  power = len(str(n))
-  copy = n
-  while copy > 0:
-    digit = copy % 10
-    sum += (digit ** power)
-    copy //= 10
-  if n == sum:
-    print("It's a armstrong number.")
-  else:
-    print("It's NOT a armstrong number.")
-armstrong_number(370)
+    sum = 0
+    power = len(str(n))
+    copy = n
+    while copy > 0:
+        digit = copy % 10
+        sum += (digit ** power)
+        copy //= 10
+    if n == sum:
+        print(f"{n} is an Armstrong number.")
+    else:
+        print(f"{n} is NOT an Armstrong number.")
 
-  
+# Input and call for armstrong_number
+n = int(input("Enter a number to check if it's an Armstrong number: "))
+armstrong_number(n)
