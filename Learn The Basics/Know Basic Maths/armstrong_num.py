@@ -11,6 +11,5 @@ def armstrong_number(n):
     else:
         print(f"{n} is NOT an Armstrong number.")
 
-# Input and call for armstrong_number
 n = int(input("Enter a number to check if it's an Armstrong number: "))
 armstrong_number(n)
