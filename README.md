@@ -9,29 +9,35 @@ This repository contains my solutions to the questions from "Striver's A-Z DSA s
 
 ## Table of Contents
 
+- [Description](#description)
+- [File Structure](#file-structure)
+- [Credits](#credits)
 
-- [Learn Sorting](#sorting)
-- [Learn The Basics](#learn-the-basics)
+## File Structure 
 
-## Sorting
-
-[File Link to Sorting](https://github.com/VedantPatil-99/DSA-Combined/blob/main/Learn%20Sorting%2FSorting.py)
-
-This section includes implementations of various sorting algorithms:
-
-- Selection Sort
-- Bubble Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
-
-## Learn The Basics
-
-[File Link to Patterns.py](https://github.com/VedantPatil-99/DSA-Combined/blob/main/Learn%20The%20Basics/Patterns.py)
-
-This section contains implementations of various patterns:
-
-- Square Pattern | Right Triangle Pattern | Number Triangle | Repeated Number Triangle | Downward Triangle of Asterisks | Downward Triangle of Numbers | Pyramid of Asterisks | Upside-Down Pyramid of Asterisks | Combined Patterns 3 and 4 (Diamond Shape) | Alternating 0 and 1 Pattern | Number Pyramid with Spaces | Incremental Number Triangle | Incremental Alphabet Triangle | Alphabet Triangle | Reverse Alphabet Triangle | Repeated Alphabet Triangle | Pyramid of Alphabets | Reverse Alphabet Triangle | Hourglass with Stars | Combined Hourglass and Diamond with Stars | Hollow Square Pattern | Number Spiral
+```plaintext
+DSA_Combined
+├── Learn Sorting
+│   └── Sorting.py
+├── Learn The Basics
+│   ├── Basic Recursion
+│   │   ├── Common_problems.py
+│   │   ├── fibonacci.py
+│   │   ├── is_string_palindrome.py
+│   │   ├── reverse_array.py
+│   │   └── sum_n_factorial.py
+│   ├── Know Basic Maths
+│   │   ├── Count_Digits.py
+│   │   ├── armstrong_num.py
+│   │   ├── factors.py
+│   │   ├── gcd.py
+│   │   ├── isPalindrome.py
+│   │   ├── prime_nums.py
+│   │   └── reverse_num.py
+│   ├── Patterns.py
+│   └── hashing.py
+└── README.md
+```
 
 
 ## How to Use
