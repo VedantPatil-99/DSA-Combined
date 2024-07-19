@@ -29,3 +29,27 @@ Count of 8: 0
 Count of 2: 3
 '''
 
+
+# Function to perform character hashing
+def char_hashing(string, queries):
+    hash = [0] * 26
+    for char in string:
+        hash[ord(char) - ord('a')] += 1
+    for query in queries:
+        print(f"Count of '{query}': {hash[ord(query) - ord('a')]}")
+
+string = input("Enter the string: ")
+queries = [char for char in input("Enter the query characters separated by space: ").split()]
+char_hashing(string, queries)
+
+# Example Output
+'''
+Enter the string: hello
+Enter the query characters separated by space: a b s
+
+Count of 'h': 1
+Count of 'a': 0
+Count of 'l': 2
+'''
+
+
