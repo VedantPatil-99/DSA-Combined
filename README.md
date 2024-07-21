@@ -1,8 +1,6 @@
 # DSA Combined-
 ## Striver's A-Z DSA Series in Python
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=VedantPatil-99.DSA-Combined)
-
 ## Description
 
 This repository contains my solutions to the questions from "Striver's A-Z DSA series" implemented in Python. The goal is to solve and store these solutions in an organized, folder-wise manner for easy reference and practice. This repository serves as a personal collection of my work as I progress through the series.
