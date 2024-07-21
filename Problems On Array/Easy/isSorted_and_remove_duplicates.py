@@ -1,3 +1,6 @@
+
+#----------------- Is Array Sorted? ---------------------------
+
 # Brute Force Approach 
 def isSorted_1(arr, n):
   for i in range(n):
@@ -10,6 +13,8 @@ arr1 = [12, 1234, 45, 67, 1]
 n1 = len(arr1)
 Ans1 = isSorted_1(arr1, n1)
 print("Is Array Sorted?:", Ans1)
+
+#---------------------------------
 
 # Optimal Solution 
 
@@ -26,6 +31,7 @@ Ans2 = isSorted_2(arr2, n2)
 print("Is Array Sorted?:", Ans2)
 
 
+#----------------- Remove Duplicates ---------------------------
 
 
 # Brute Force Approach
@@ -49,7 +55,7 @@ n3 = len(arr3)
 Ans3 = remove_duplicates_1(arr3, n3)
 print("Array after removing duplicates:", arr3[:Ans3])
 
-
+#--------------------------
 
 # Optimal Solution
 
@@ -65,3 +71,4 @@ arr4 = [1, 2, 3, 3, 4, 5, 5, 6, 7, 8]
 n4 = len(arr4)
 Ans4 = remove_duplicates_1(arr4, n4)
 print("Array after removing duplicates:", arr4[:Ans4])
+
