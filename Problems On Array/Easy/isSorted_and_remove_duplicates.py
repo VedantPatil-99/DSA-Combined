@@ -24,3 +24,30 @@ arr2.sort()
 n2 = len(arr2)
 Ans2 = isSorted_2(arr2, n2)
 print("Is Array Sorted?:", Ans2)
+
+
+
+
+# Brute Force Approach
+
+from typing import List
+def remove_duplicates_1(arr: List[int], n) -> int:
+  if n == 0:
+    return 0
+  st = set()
+  for i in range(n):
+    st.add(arr3[i])
+  k = len(st)
+  j = 0
+  for x in st:
+    arr[j] = x
+    j += 1
+  return k
+
+arr3 = [1, 2, 3, 3, 4, 5, 5, 6, 7, 8]
+n3 = len(arr3)
+Ans3 = remove_duplicates_1(arr3, n3)
+print("Array after removing duplicates:", arr3[:Ans3])
+
+# Optimal Solution
+
