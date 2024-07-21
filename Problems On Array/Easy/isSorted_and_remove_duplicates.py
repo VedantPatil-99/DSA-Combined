@@ -49,5 +49,19 @@ n3 = len(arr3)
 Ans3 = remove_duplicates_1(arr3, n3)
 print("Array after removing duplicates:", arr3[:Ans3])
 
+
+
 # Optimal Solution
 
+def remove_duplicates_1(arr, n):
+  i = 0
+  for j in range(1, n):
+    if arr[i] != arr[j]:
+      i += 1
+      arr[i] = arr[j]
+  return i+1
+
+arr4 = [1, 2, 3, 3, 4, 5, 5, 6, 7, 8]
+n4 = len(arr4)
+Ans4 = remove_duplicates_1(arr4, n4)
+print("Array after removing duplicates:", arr4[:Ans4])
