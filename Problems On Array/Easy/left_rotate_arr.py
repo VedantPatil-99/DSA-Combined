@@ -1,3 +1,6 @@
+
+# Brute Force Approach 
+
 def left_rotate_one(arr, n):
     temp = [0] * n
     for i in range(1, n):
@@ -11,6 +14,9 @@ n = 5
 arr = [1, 2, 3, 4, 5]
 left_rotate_one(arr, n)
 
+#-------------------------------------
+
+# Optimal Solution 
 
 def left_rotate_n(arr, n):
     temp = arr[0]
