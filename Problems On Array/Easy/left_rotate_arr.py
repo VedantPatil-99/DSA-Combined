@@ -11,3 +11,15 @@ n = 5
 arr = [1, 2, 3, 4, 5]
 left_rotate_one(arr, n)
 
+
+def left_rotate_n(arr, n):
+    temp = arr[0]
+    for i in range(n - 1):
+        arr[i] = arr[i + 1]
+    arr[n - 1] = temp
+    for i in range(n):
+        print(arr[i], end=" ")
+
+arr2 = [1, 2, 3, 4, 5]
+n2 = len(arr2)
+left_rotate_n(arr2, n2)
